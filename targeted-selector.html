@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Targeted selector</title>
+    <link rel="stylesheet" href="./targeted-selector.css" />
+  </head>
+  <style>
+    h1:nth-child(2) {
+      background-color: yellow;
+    }
+  </style>
+  <body>
+    <h1>external css</h1>
+    <h1>internal css</h1>
+    <h1>inline</h1>
+    <div>
+      <div>block</div>
+      <span class="inline">inline</span>
+      <span class="inline">inline2</span>
+      <input type="text" />
+      <button></button>
+      <img src="./" alt="" />
+      <h1></h1>
+      <p></p>
+
+      <p class="p1">p tag 1</p>
+      <div>
+        <p>p tag 2</p>
+        <q>Lorem, ipsum.</q>
+        <strong>Lorem, ipsum.</strong>
+        <blockquote>
+          <q>
+            Lorem, ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Commodi at veritatis tenetur illo sint, eaque minima vitae,
+            sunt provident, laborum error modi quae fugiat quia nostrum?
+            Provident nobi <br />
+            sunt fugiat?
+          </q>
+        </blockquote>
+        <em>Lorem, ipsum.</em>
+        <br />
+        <p>p tag 3</p>
+      </div>
+      <div><h1></h1></div>
+    </div>
+    <p class="p3">p tag 3</p>
+    <input id="e123" type="text" placeholder="12" />
+    <input type="search" />
+    <p class="p3">p tag 3</p>
+    <input id="12" type="password" />
+    <input type="search" placeholder="123" />
+    <a href=""></a>
+  </body>
+</html>
