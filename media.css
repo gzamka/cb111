@@ -26,7 +26,7 @@ h1::before {
 }
 
 input:checked {
-  width: 300px;
+  width: 100px;
 }
 
 input:focus {
