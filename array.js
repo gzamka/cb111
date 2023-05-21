@@ -80,8 +80,3 @@ if (a[4] < 0) {
 // sum = a + b + c + d + e;
 
 // console.log(sum);
-
-
-for loop
-while loop
-do while loop
