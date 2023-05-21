@@ -68,6 +68,8 @@ if (a[4] < 0) {
   console.log(a[4]);
 }
 
+++++++
+
 // let a, b, c, d, e, sum;
 
 // a = ner[0];
